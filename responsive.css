@@ -1,0 +1,480 @@
+@media only screen and (max-width:576px){
+    body{
+        width: 100vw;
+    }
+    .header{
+        width: 100%;
+    }
+    .navbar{
+        width: 100%;
+        display:flex;
+        align-items: center;
+       flex-direction: column;
+    }
+    .navbar-list{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .navbar-list-item{
+        width: 50%;
+        margin: 0;
+        padding: 15px;
+        text-align: center;
+    }
+
+    .banner{
+        flex-direction: column;
+        padding-top: 25px;
+
+    }
+    .banner-black{
+        color: #000000;
+        font-family: 'Rubik', sans-serif;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 3.25rem; 
+        line-height: 3.7rem;
+    }
+    .banner-green{
+        color:  #90e051;
+        font-family: 'Rubik', sans-serif;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 3.25rem; 
+        line-height: 3.7rem;
+        top: 0;
+    }
+    
+    .banner-text{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19.3333px;
+    line-height: 34px;
+    color: #000000;
+    margin-bottom: 15px;
+    }
+    .button{
+        width:150px;
+        height: 50px;
+        border-radius: 8px;
+        background-color: #90e051;
+        border: 2px solid  #90e051;
+        font-size: 19px;
+        font-weight: 900px;
+        color: #fff;
+    }
+    .button1{
+        width: 150px;
+        height: 50px;
+        border-radius: 10px;
+        background-color: #fff;
+        border: 1px solid  #90e051;
+        font-size: 19px ;
+        color:  #90e051;
+        font-weight: 900px;
+        margin-left: 30px;
+    }
+    
+    .banner-rasmi{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .banner-yozuvi{
+        width: 100%;
+        text-align: center;
+    }
+    .banner1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .gamburger-rasmi{
+        width: 380px;
+        height: 350px;
+    }
+
+
+    .card{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 30px;
+    }
+    .card1{
+        margin: 15px;
+        text-align: center;
+    }
+    .card1 h3{
+        font-size: 18px;
+        font-weight: 700;
+    }
+    .card1 h1{
+        font-size: 30px;
+        font-weight: 600;
+    }
+
+    .menu-cards {
+        background-color: #90e051;
+        padding: 30px;
+        border-radius: 30px;
+        box-shadow: 0px 17.7668px 111.042px -22.2084px rgba(0, 0, 0, 0.25);
+      
+    }
+    .review{
+        height: 100%;
+        margin: 3rem 0;
+    }
+    .review-wrapper{
+        display: block;
+        
+    }
+    .review-text{
+        width: 100%;
+        margin-top: 50px;
+       
+    }
+    .customer-title{
+        font-size: 35px;
+        text-align: center;
+    }
+    .customer-text{
+        padding-right: 35px;
+        font-size: 17px;
+        
+    }
+    
+    .customer{
+        display: flex;
+        margin-top: 5%;
+    }
+    
+    .customer-name{
+        margin-left: 15px;
+        margin-top: 4%;
+    }
+    .customer-name >h4  {
+        color: #90e051;
+        font-size: 20px;
+    }
+    .customer-name >h5{
+        font-size: 20px;
+    }
+    .customer-icon{
+        margin-left: 16%;
+        margin-top: 4%;
+    }
+ 
+    .review-img{
+        width: 100%;
+    }
+    
+    .review-big-img{
+        text-align: right;
+    }
+    .review-big-img >img{
+      width: 100%;
+      margin-top: 15px;
+    
+    }
+    .review-small{
+        background-color: #fff;
+        width: 100%;
+        height: 198.28px;
+        position: static;
+        border-radius: 10px;
+        border: 1px solid #c6c4c4;
+        margin-top: 20px;
+        }
+    .order{
+        display: flex;
+        margin-top: 10%;
+        align-items: center;
+        justify-content: space-between;
+        margin-right: 4%;
+        margin-left: 4%;
+    }
+    .order-icon{
+        margin-left: 4%;
+    }
+    .order-text{
+        margin-left: 4%;
+    }
+
+    .about-us{
+        height: 100%;
+    }
+    .about{
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .about-text{
+        width: 100%;
+    }
+    
+    
+  
+    .aboutt{
+        width: 100%;
+        height: 203.75px;
+        background-color: #fff;
+       border: 1px solid rgb(204, 202, 202);
+       position: static;  
+       z-index: 2;
+      margin-top: 80px;
+
+     border-radius: 10px;
+   }
+  
+    .about-img1{
+        position: static;
+      
+     
+    }
+    .aboutt > h1 {
+        margin: 25px 5px ;    
+    }
+    .aboutt > p{
+        margin: 25px 5px ; 
+    }
+    .aboutt > h1 {
+        font-size: 25px;
+    }
+    .aboutt > p {
+        font-size: 18px;
+    }
+    .about-img{
+        width: 100%;
+        position: relative;
+        z-index: 1;
+        top: 50px;
+    }
+    .aboutimg{
+        width: 100%;
+    height: 377px;
+    }
+    .aboutimg1{
+        width: 200px;
+        height: 150px;
+        position: absolute;
+        z-index: 2;
+        left: 220px;
+     
+    }
+    .about-img1 >img{
+        position: absolute;
+        margin-top: -10px;
+    }
+   .mobile-app{
+    height: 100%;
+   }
+   .mobile-app-wrapper{
+    height: 100%;
+   }
+   .app-big-img{
+    position: absolute;
+    left: 0;
+    z-index: 9;
+    top: 0;
+}
+.mobile-app{
+    height: 100%;
+}
+.mobile-app-wrapper{
+    display: flex;
+    flex-direction: column;
+}
+.app-img{
+    height: 400px;
+    width: 100%;
+    background-color: #90E051;
+    position: relative;
+}
+
+
+
+.mobile-app-text{
+    height: 500px;
+    width: 100%;
+    background-color: #90E051;
+    
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.app-big-img{
+    padding-left: 90px;
+    padding-top: 50px;
+    width: 300px;
+}
+
+
+.app-small-img{
+    display: none;
+}
+.app-img .app-burger{
+    width: 200px;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+     
+}
+.mobile-app-text >p{
+    padding-left: 20px ;
+    padding-right: 400px;
+}
+.mobile-app-text > img{
+    width: 150px;
+    position: absolute;
+    margin-top:21%;
+    left: 66% ;
+}
+.mobile-app-text > p{
+    width: 823px;
+height: 97px;
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 700;
+font-size: 40.1356px;
+line-height: 77px;
+color: #FFFFFF;
+margin: 60px 15px;
+}
+.subscribe{
+    height: 100%;
+    width: 100%; 
+    display: flex;
+    justify-content: center; 
+    
+}
+.subscribe-wrapper{
+    height: 100%;
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 5px 6px 7px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+
+.subscribe-title{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 35px;
+    color: #90E051;
+    width: 100%;
+    padding: 20px 10px;
+}
+.subscribe-input{
+    width: 100%;
+
+}
+.subscribe-input >form{
+    width:100%;
+    display: flex;
+}
+.subscribe-input form input{
+    width: 100%;
+    outline: none;
+    border: 1px solid #90E051;
+    padding-left: 15px;
+}
+
+.subscribe-input form button{
+    width: 100%;
+    height: 50px;
+    background-color: #90E051;
+    border: 1px solid #90E051;
+    color: #fff;
+
+}
+
+
+.subscribe-social{
+    width: 50%;
+    display: flex;
+}
+
+.fa-brands{
+    color: #90E051;
+    margin: 5px;
+    
+    
+}
+.subscribe-social i{
+    font-size: 38px;
+}
+
+
+
+.footer{
+    height: 566px;
+    background-image: url(./img/shaxboz.png);
+}
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    flex-direction: column;
+    
+}
+.contact1{
+margin-top: 12%;
+margin-right: 60px;
+}
+.contact-li > a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+.contact-ul > h1{
+    color: #fff;
+    margin-bottom: 10px;
+    font-size: 29px;
+}
+
+.contact2{
+    margin-top: 15%;
+    margin-right: 60px;
+}
+
+    .contact-li2 > a{
+        text-decoration: none;
+        color: #000;
+        font-size: 18px;
+    }
+    .contact-ul2 > h1{
+        color: #fff;
+        margin-bottom: 10px;
+        font-size: 29px;
+    }
+    .contact-li{
+        list-style: none;
+    }
+    .contact-li2{
+        list-style: none;
+    }
+.contact3{
+    margin-top: 15%;
+    margin-right: 60px;
+}
+.contact3 > h1{
+    color: black;
+    font-size: 29px;
+}
+
+
+}
